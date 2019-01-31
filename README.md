@@ -4,7 +4,7 @@ Since I'm an avid Reddit user, I thought it would be cool to recreate Reddit's w
 all of Reddit in the 3-5 days that I had but only ended up recreating the front page posts and the karma voting system.
 
 # Message for FullStack Academy
-The main code you should look at consists of these php/js/sql pages: 
+The main code you should look at consists of these php/js/sql pages: <br />
     1. all_posts.php --> The main page
     2. post_voting.js --> How the voting system works (color changes), AJAX calls, etc.
     3. vote_direction.js --> How color of upvotes/downvotes is maintained between pages
