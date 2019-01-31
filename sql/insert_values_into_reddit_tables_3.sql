@@ -1,0 +1,7 @@
+USE reddit;
+
+INSERT INTO users (user_username, user_password) VALUES ('steve_rafalovich', 'test12345'), ('polina_gertskis', 'test123456');
+
+INSERT INTO posts (post_id, post_title, post_image_url, post_body, poster_username) VALUES(NULL, 'This is a test title for my post', NULL, 'This is the body of my post...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'steve_rafalovich'), (NULL, 'Title Test 2', NULL, 'This is a test of the post body # 2.', 'polina_gertskis'), (NULL, 'This is a really cool topic', NULL, 'What do you guys think about this topic? I will be very interested to see your thoughts on this!', 'polina_gertskis');
+
+INSERT INTO comments (comment_id, comment_content, commenter_username, post_id) VALUES (NULL, 'This is comment made by amger', 'amger', 6), (NULL, 'This is comment 2', 'sean_musk', 1), (NULL, 'This is comment made by dave', 'dave', 6);
