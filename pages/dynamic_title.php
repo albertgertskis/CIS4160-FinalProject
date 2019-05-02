@@ -2,7 +2,7 @@
 
 function title($str) {
     if(empty($str)) {
-        $str = "Pokedex Database";
+        $str = "Reddit";
     }
     echo $str;
 }
